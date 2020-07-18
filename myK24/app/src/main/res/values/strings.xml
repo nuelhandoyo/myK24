@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">myK24</string>
+
+    <!--=== activity Splash ==================================================================== -->
+    <string name="splash_welcome_text">SELAMAT DATANG</string>
+    <string name="splash_desc_text">Sahabat sehat</string>
+    <string name="reglink">Belum punya akun? Daftar sekarang</string>
+
+</resources>
