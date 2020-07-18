@@ -29,9 +29,6 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
         db.execSQL("DROP TABLE IF EXISTS session");
         db.execSQL("DROP TABLE IF EXISTS users");
-
-        db.execSQL("DROP TABLE IF EXISTS user");
-        db.execSQL("DROP TABLE IF EXISTS member");
         onCreate(db);
     }
 
